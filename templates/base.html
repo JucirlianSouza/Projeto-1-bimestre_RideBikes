@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titulo %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/pure-min.css">
+    <link rel="stylesheet" href="/static/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+<div class="pure-menu pure-menu-horizontal">
+    <a href="/" class="pure-menu-heading">Ride Bikes</a>
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="/" class="pure-menu-link">Inicio</a></li>
+        <li class="pure-menu-item pure-menu-selected"><a href="/bikes" class="pure-menu-link">Bikes</a></li>
+        <li class="pure-menu-item"><a href="/seguro" class="pure-menu-link">Seguro</a></li>
+      <li class="pure-menu-item"><a href="/sobre" class="pure-menu-link">Sobre nós</a></li>
+      <li class="pure-menu-item"><a href="/contato" class="pure-menu-link">Contato</a></li>
+      <li class="pure-menu-item"><a href="/avaliacoes" class="pure-menu-link">Avaliações</a></li>
+      <li class="pure-menu-item"><a href="/suporte" class="pure-menu-link">Suporte</a></li>
+    </ul>
+</div>
+  {% block conteudo %}
+  {% endblock %}
+<div class="footer l-box">
+    <p>
+        Ride Bikes &copy; 2022. Sua loja de bikes virtual.
+    </p>
+</div>
+
+</body>
+</html>
