@@ -37,7 +37,7 @@ def suporte():
 @app.route('/avaliacoes')
 def avaliacoes():
   clientes = [ {"nome": "Cliente_1", "nota": 10, "comentario": "A bike Oggi Bigwhell 7.5 é a melhor do mercado atualmente, estou indo muito bem nas competições."},
-              {"nome": "Clinte_2", "nota": 6, "comentario": "A Bike Oggi 7.0 poderia vir com uma geometria mais atualizada do quadro, não vale o valor que paguei por ela."},
+              {"nome": "Cliente_2", "nota": 6, "comentario": "A Bike Oggi 7.0 poderia vir com uma geometria mais atualizada do quadro, não vale o valor que paguei por ela."},
               {"nome": "Cliente_3", "nota": 9, "comentario": "Experência indescritível, melhorou 100% meu pedal. Loja confiável, podem comprar sem medo."},
               {"nome": "Cliente_3", "nota": 5, "comentario": "Bike chegou com defeito na gancheira, não consigo regular as marchas, acionei a garantia e espero que resolvam o mais rápido possível."},
               {"nome": "Cliente_4", "nota": 10, "comentario": "Oggi 7.5, de longe é a melhor! Obrigado pelo atendimento!"},

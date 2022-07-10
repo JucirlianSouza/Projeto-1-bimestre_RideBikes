@@ -50,11 +50,11 @@ p {
 
 .banner {
   background: transparent
-    url("/static/imagens/background.jpeg")
+    url("/static/imagens/background.jpg")
     0 0 no-repeat fixed;
   text-align: center;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/imagens/background.jpeg', sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/imagens/background.jpg', sizingMethod='scale');
 
   height: 200px;
   width: 100%;
@@ -101,11 +101,11 @@ p {
  * Choose a different color based on the type of pricing table.
  */
 .pricing-table-free .pricing-table-header {
-  background: #519251;
+  background: #ffffff;
 }
 
 .pricing-table-biz .pricing-table-header {
-  background: #2c4985;
+  background: #ffffff;
 }
 
 /*
@@ -113,7 +113,7 @@ p {
  * By default, a header is black/white, and has some styles for its <h2> name.
  */
 .pricing-table-header {
-  background: #111;
+  background: #ffffff;
   color: #fff;
 }
 .pricing-table-header h2 {
